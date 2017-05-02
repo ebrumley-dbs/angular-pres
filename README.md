@@ -1,11 +1,11 @@
 # Angular presentation
 
-Prerequisites for working with the "before" code sample:
+**Prerequisites for working with the "before" code sample:**
 
-  Node.js and npm are essential to Angular 2 development.
+  * Node.js and npm are essential to Angular 2 development.
 
-  Get them NOW if it's not already installed on your machine.
+  * Get them NOW if they are not already installed on your machine.
   
-  Verify that you are running at least node v4.x.x and npm 3.x.x by running node -v and npm -v in a terminal/console window. Older versions produce errors.
+  * Verify that you are running at least node v4.x.x and npm 3.x.x by running node -v and npm -v in a terminal/console window. Older versions produce errors.
 
-  Intellij is preferred but not required.
+  * IntelliJ or WebStorm are preferred but not required.
