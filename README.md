@@ -1,4 +1,3 @@
-# angular-pres
-Angular presentation
+# Angular presentation
 
 Prerequisites for starting the "before" code sample.
