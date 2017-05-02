@@ -1,4 +1,3 @@
-# This is the one that interfaces with Star Wars API
 # Angular 2 QuickStart Source
 [![Build Status][travis-badge]][travis-badge-url]
 
