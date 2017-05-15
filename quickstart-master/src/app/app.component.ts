@@ -1,7 +1,15 @@
 import { Component } from '@angular/core';
+import { PeopleService } from './people.service';
 
 @Component({
   selector: 'my-app',
-  template: `<h1>Hello {{name}}</h1>`,
+  template: `
+    <h1> {{title}} </h1>
+    <router-outlet>
+  `,
+  // This registers the PeopleService , now Angular 2 knows to inject it when required
+  providers: [PeopleService]
 })
-export class AppComponent  { name = 'Angular'; }
+export class AppComponent {
+  title:string = 'Star Wars People!';
+}
