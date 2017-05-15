@@ -1,0 +1,15 @@
+<section>
+  <section *ngIf="isLoading && !errorMessage">
+    Loading our hyperdrives!!! Retrieving data...
+  </section>
+  <ul>
+    <li *ngFor="let person of people">
+      <a href="#" [routerLink]="['/persons', person.id]">
+        {{person.name}}
+      </a>
+    </li>
+  </ul>
+  <section *ngIf="errorMessage">
+    {{errorMessage}}
+  </section>
+</section>

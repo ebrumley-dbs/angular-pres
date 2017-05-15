@@ -5,11 +5,11 @@ import { PeopleService } from './people.service';
   selector: 'my-app',
   template: `
     <h1> {{title}} </h1>
-    <router-outlet>
+    <router-outlet></router-outlet>
   `,
-  // This registers the PeopleService , now Angular 2 knows to inject it when required
+  // This registers the PeopleService
   providers: [PeopleService]
 })
 export class AppComponent {
-  title:string = 'Star Wars People!';
+  title: string = 'SWAPI - Star Wars People!';
 }
